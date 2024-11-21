@@ -1,0 +1,4 @@
+[console_scripts]
+aruco_detector = turtlebot_follower.aruco_detector:main
+follower = turtlebot_follower.follower:main
+

@@ -1,0 +1,28 @@
+[0.973s] Invoking command in '/home/eth/turtlebot_follow_ws/src/turtlebot_follower': PYTHONPATH=/home/eth/turtlebot_follow_ws/build/turtlebot_follower/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/eth/turtlebot_follow_ws/install/turtlebot_follower/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/turtlebot_follower build --build-base /home/eth/turtlebot_follow_ws/build/turtlebot_follower/build install --record /home/eth/turtlebot_follow_ws/build/turtlebot_follower/install.log --single-version-externally-managed install_data
+[1.333s] running egg_info
+[1.334s] writing ../../build/turtlebot_follower/turtlebot_follower.egg-info/PKG-INFO
+[1.334s] writing dependency_links to ../../build/turtlebot_follower/turtlebot_follower.egg-info/dependency_links.txt
+[1.334s] writing entry points to ../../build/turtlebot_follower/turtlebot_follower.egg-info/entry_points.txt
+[1.334s] writing requirements to ../../build/turtlebot_follower/turtlebot_follower.egg-info/requires.txt
+[1.335s] writing top-level names to ../../build/turtlebot_follower/turtlebot_follower.egg-info/top_level.txt
+[1.337s] reading manifest file '../../build/turtlebot_follower/turtlebot_follower.egg-info/SOURCES.txt'
+[1.338s] writing manifest file '../../build/turtlebot_follower/turtlebot_follower.egg-info/SOURCES.txt'
+[1.338s] running build
+[1.338s] running build_py
+[1.338s] copying turtlebot_follower/aruco_detector.py -> /home/eth/turtlebot_follow_ws/build/turtlebot_follower/build/lib/turtlebot_follower
+[1.338s] copying turtlebot_follower/follower.py -> /home/eth/turtlebot_follow_ws/build/turtlebot_follower/build/lib/turtlebot_follower
+[1.338s] running install
+[1.339s] running install_lib
+[1.339s] copying /home/eth/turtlebot_follow_ws/build/turtlebot_follower/build/lib/turtlebot_follower/aruco_detector.py -> /home/eth/turtlebot_follow_ws/install/turtlebot_follower/lib/python3.10/site-packages/turtlebot_follower
+[1.340s] copying /home/eth/turtlebot_follow_ws/build/turtlebot_follower/build/lib/turtlebot_follower/follower.py -> /home/eth/turtlebot_follow_ws/install/turtlebot_follower/lib/python3.10/site-packages/turtlebot_follower
+[1.340s] byte-compiling /home/eth/turtlebot_follow_ws/install/turtlebot_follower/lib/python3.10/site-packages/turtlebot_follower/aruco_detector.py to aruco_detector.cpython-310.pyc
+[1.341s] byte-compiling /home/eth/turtlebot_follow_ws/install/turtlebot_follower/lib/python3.10/site-packages/turtlebot_follower/follower.py to follower.cpython-310.pyc
+[1.342s] running install_data
+[1.342s] running install_egg_info
+[1.344s] removing '/home/eth/turtlebot_follow_ws/install/turtlebot_follower/lib/python3.10/site-packages/turtlebot_follower-0.0.0-py3.10.egg-info' (and everything under it)
+[1.344s] Copying ../../build/turtlebot_follower/turtlebot_follower.egg-info to /home/eth/turtlebot_follow_ws/install/turtlebot_follower/lib/python3.10/site-packages/turtlebot_follower-0.0.0-py3.10.egg-info
+[1.345s] running install_scripts
+[1.367s] Installing aruco_detector script to /home/eth/turtlebot_follow_ws/install/turtlebot_follower/lib/turtlebot_follower
+[1.368s] Installing follower script to /home/eth/turtlebot_follow_ws/install/turtlebot_follower/lib/turtlebot_follower
+[1.368s] writing list of installed files to '/home/eth/turtlebot_follow_ws/build/turtlebot_follower/install.log'
+[1.393s] Invoked command in '/home/eth/turtlebot_follow_ws/src/turtlebot_follower' returned '0': PYTHONPATH=/home/eth/turtlebot_follow_ws/build/turtlebot_follower/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/eth/turtlebot_follow_ws/install/turtlebot_follower/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/turtlebot_follower build --build-base /home/eth/turtlebot_follow_ws/build/turtlebot_follower/build install --record /home/eth/turtlebot_follow_ws/build/turtlebot_follower/install.log --single-version-externally-managed install_data

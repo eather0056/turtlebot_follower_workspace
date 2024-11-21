@@ -1,0 +1,78 @@
+[0.022s] Invoking command in '/home/eth/turtlebot_follow_ws/build/image_geometry': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eth/turtlebot_follow_ws/install/opencv_tests:/home/eth/turtlebot_follow_ws/install/turtlebot_follower:/opt/ros/humble /usr/bin/cmake --build /home/eth/turtlebot_follow_ws/build/image_geometry -- -j8 -l8
+[0.041s] -- Found ament_cmake_python: 1.3.10 (/opt/ros/humble/share/ament_cmake_python/cmake)
+[0.042s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.166s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.273s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.326s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.332s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.343s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.379s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.405s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.478s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[0.613s] -- Configuring done
+[0.629s] -- Generating done
+[0.632s] -- Build files have been written to: /home/eth/turtlebot_follow_ws/build/image_geometry
+[0.662s] [35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[0.662s] [35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[0.663s] [35m[1mConsolidate compiler generated dependencies of target image_geometry[0m
+[0.684s] [ 33%] [32mBuilding CXX object CMakeFiles/image_geometry.dir/src/pinhole_camera_model.cpp.o[0m
+[0.684s] [ 33%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[0.685s] [ 33%] [32mBuilding CXX object CMakeFiles/image_geometry.dir/src/stereo_camera_model.cpp.o[0m
+[0.685s] [ 33%] Built target ament_cmake_python_symlink_image_geometry
+[0.685s] [ 44%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[1.350s] running egg_info
+[1.352s] writing image_geometry.egg-info/PKG-INFO
+[1.352s] writing dependency_links to image_geometry.egg-info/dependency_links.txt
+[1.353s] writing top-level names to image_geometry.egg-info/top_level.txt
+[1.357s] reading manifest file 'image_geometry.egg-info/SOURCES.txt'
+[1.358s] writing manifest file 'image_geometry.egg-info/SOURCES.txt'
+[1.407s] [ 44%] Built target ament_cmake_python_build_image_geometry_egg
+[1.882s] [ 55%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[1.947s] [ 55%] Built target gtest_main
+[2.385s] [ 66%] [32m[1mLinking CXX shared library libimage_geometry.so[0m
+[2.507s] [ 66%] Built target image_geometry
+[4.834s] [ 77%] [32m[1mLinking CXX static library libgtest.a[0m
+[4.901s] [ 77%] Built target gtest
+[4.923s] [ 88%] [32mBuilding CXX object CMakeFiles/image_geometry-utest.dir/test/utest.cpp.o[0m
+[6.582s] [100%] [32m[1mLinking CXX executable image_geometry-utest[0m
+[6.782s] [100%] Built target image_geometry-utest
+[6.793s] Invoked command in '/home/eth/turtlebot_follow_ws/build/image_geometry' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eth/turtlebot_follow_ws/install/opencv_tests:/home/eth/turtlebot_follow_ws/install/turtlebot_follower:/opt/ros/humble /usr/bin/cmake --build /home/eth/turtlebot_follow_ws/build/image_geometry -- -j8 -l8
+[6.834s] Invoking command in '/home/eth/turtlebot_follow_ws/build/image_geometry': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eth/turtlebot_follow_ws/install/opencv_tests:/home/eth/turtlebot_follow_ws/install/turtlebot_follower:/opt/ros/humble /usr/bin/cmake --install /home/eth/turtlebot_follow_ws/build/image_geometry
+[6.843s] -- Install configuration: ""
+[6.843s] -- Execute custom install script
+[6.843s] -- Up-to-date symlink: /home/eth/turtlebot_follow_ws/install/image_geometry/share/image_geometry/environment/pythonpath.sh
+[6.843s] -- Up-to-date symlink: /home/eth/turtlebot_follow_ws/install/image_geometry/share/image_geometry/environment/pythonpath.dsv
+[6.844s] -- Symlinking: /home/eth/turtlebot_follow_ws/install/image_geometry/local/lib/python3.10/dist-packages/image_geometry-3.2.1-py3.10.egg-info/PKG-INFO
+[6.852s] -- Symlinking: /home/eth/turtlebot_follow_ws/install/image_geometry/local/lib/python3.10/dist-packages/image_geometry-3.2.1-py3.10.egg-info/SOURCES.txt
+[6.861s] -- Symlinking: /home/eth/turtlebot_follow_ws/install/image_geometry/local/lib/python3.10/dist-packages/image_geometry-3.2.1-py3.10.egg-info/dependency_links.txt
+[6.869s] -- Symlinking: /home/eth/turtlebot_follow_ws/install/image_geometry/local/lib/python3.10/dist-packages/image_geometry-3.2.1-py3.10.egg-info/top_level.txt
+[6.878s] -- Up-to-date symlink: /home/eth/turtlebot_follow_ws/install/image_geometry/local/lib/python3.10/dist-packages/image_geometry/__init__.py
+[6.878s] -- Up-to-date symlink: /home/eth/turtlebot_follow_ws/install/image_geometry/local/lib/python3.10/dist-packages/image_geometry/cameramodels.py
+[6.878s] -- Symlinking: /home/eth/turtlebot_follow_ws/install/image_geometry/include/image_geometry/image_geometry/pinhole_camera_model.h
+[6.886s] -- Symlinking: /home/eth/turtlebot_follow_ws/install/image_geometry/include/image_geometry/image_geometry/stereo_camera_model.h
+[6.896s] -- Up-to-date symlink: /home/eth/turtlebot_follow_ws/install/image_geometry/include/image_geometry/image_geometry/visibility_control.hpp
+[6.896s] -- Up-to-date symlink: /home/eth/turtlebot_follow_ws/install/image_geometry/share/ament_index/resource_index/package_run_dependencies/image_geometry
+[6.896s] -- Up-to-date symlink: /home/eth/turtlebot_follow_ws/install/image_geometry/share/ament_index/resource_index/parent_prefix_path/image_geometry
+[6.896s] -- Up-to-date symlink: /home/eth/turtlebot_follow_ws/install/image_geometry/share/image_geometry/environment/ament_prefix_path.sh
+[6.896s] -- Up-to-date symlink: /home/eth/turtlebot_follow_ws/install/image_geometry/share/image_geometry/environment/ament_prefix_path.dsv
+[6.896s] -- Up-to-date symlink: /home/eth/turtlebot_follow_ws/install/image_geometry/share/image_geometry/environment/path.sh
+[6.897s] -- Up-to-date symlink: /home/eth/turtlebot_follow_ws/install/image_geometry/share/image_geometry/environment/path.dsv
+[6.897s] -- Up-to-date symlink: /home/eth/turtlebot_follow_ws/install/image_geometry/share/image_geometry/local_setup.bash
+[6.897s] -- Up-to-date symlink: /home/eth/turtlebot_follow_ws/install/image_geometry/share/image_geometry/local_setup.sh
+[6.897s] -- Up-to-date symlink: /home/eth/turtlebot_follow_ws/install/image_geometry/share/image_geometry/local_setup.zsh
+[6.897s] -- Up-to-date symlink: /home/eth/turtlebot_follow_ws/install/image_geometry/share/image_geometry/local_setup.dsv
+[6.897s] -- Symlinking: /home/eth/turtlebot_follow_ws/install/image_geometry/share/image_geometry/package.dsv
+[6.906s] -- Up-to-date symlink: /home/eth/turtlebot_follow_ws/install/image_geometry/share/ament_index/resource_index/packages/image_geometry
+[6.906s] -- Up-to-date symlink: /home/eth/turtlebot_follow_ws/install/image_geometry/share/image_geometry/cmake/ament_cmake_export_targets-extras.cmake
+[6.906s] -- Up-to-date symlink: /home/eth/turtlebot_follow_ws/install/image_geometry/share/image_geometry/cmake/ament_cmake_export_dependencies-extras.cmake
+[6.907s] -- Up-to-date symlink: /home/eth/turtlebot_follow_ws/install/image_geometry/share/image_geometry/cmake/image_geometryConfig.cmake
+[6.907s] -- Up-to-date symlink: /home/eth/turtlebot_follow_ws/install/image_geometry/share/image_geometry/cmake/image_geometryConfig-version.cmake
+[6.907s] -- Up-to-date symlink: /home/eth/turtlebot_follow_ws/install/image_geometry/share/image_geometry/package.xml
+[6.948s] Listing '/home/eth/turtlebot_follow_ws/install/image_geometry/local/lib/python3.10/dist-packages/image_geometry'...
+[6.949s] Compiling '/home/eth/turtlebot_follow_ws/install/image_geometry/local/lib/python3.10/dist-packages/image_geometry/__init__.py'...
+[6.949s] Compiling '/home/eth/turtlebot_follow_ws/install/image_geometry/local/lib/python3.10/dist-packages/image_geometry/cameramodels.py'...
+[6.953s] -- Installing: /home/eth/turtlebot_follow_ws/install/image_geometry/lib/libimage_geometry.so
+[6.953s] -- Set runtime path of "/home/eth/turtlebot_follow_ws/install/image_geometry/lib/libimage_geometry.so" to ""
+[6.954s] -- Up-to-date: /home/eth/turtlebot_follow_ws/install/image_geometry/share/image_geometry/cmake/export_image_geometryExport.cmake
+[6.954s] -- Up-to-date: /home/eth/turtlebot_follow_ws/install/image_geometry/share/image_geometry/cmake/export_image_geometryExport-noconfig.cmake
+[6.956s] Invoked command in '/home/eth/turtlebot_follow_ws/build/image_geometry' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eth/turtlebot_follow_ws/install/opencv_tests:/home/eth/turtlebot_follow_ws/install/turtlebot_follower:/opt/ros/humble /usr/bin/cmake --install /home/eth/turtlebot_follow_ws/build/image_geometry

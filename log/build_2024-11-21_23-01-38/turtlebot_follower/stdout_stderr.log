@@ -1,0 +1,39 @@
+running egg_info
+creating ../../build/turtlebot_follower/turtlebot_follower.egg-info
+writing ../../build/turtlebot_follower/turtlebot_follower.egg-info/PKG-INFO
+writing dependency_links to ../../build/turtlebot_follower/turtlebot_follower.egg-info/dependency_links.txt
+writing entry points to ../../build/turtlebot_follower/turtlebot_follower.egg-info/entry_points.txt
+writing requirements to ../../build/turtlebot_follower/turtlebot_follower.egg-info/requires.txt
+writing top-level names to ../../build/turtlebot_follower/turtlebot_follower.egg-info/top_level.txt
+writing manifest file '../../build/turtlebot_follower/turtlebot_follower.egg-info/SOURCES.txt'
+reading manifest file '../../build/turtlebot_follower/turtlebot_follower.egg-info/SOURCES.txt'
+writing manifest file '../../build/turtlebot_follower/turtlebot_follower.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/eth/turtlebot_follow_ws/build/turtlebot_follower/build
+creating /home/eth/turtlebot_follow_ws/build/turtlebot_follower/build/lib
+creating /home/eth/turtlebot_follow_ws/build/turtlebot_follower/build/lib/turtlebot_follower
+copying turtlebot_follower/aruco_detector.py -> /home/eth/turtlebot_follow_ws/build/turtlebot_follower/build/lib/turtlebot_follower
+copying turtlebot_follower/follower.py -> /home/eth/turtlebot_follow_ws/build/turtlebot_follower/build/lib/turtlebot_follower
+copying turtlebot_follower/__init__.py -> /home/eth/turtlebot_follow_ws/build/turtlebot_follower/build/lib/turtlebot_follower
+running install
+running install_lib
+creating /home/eth/turtlebot_follow_ws/install/turtlebot_follower/lib/python3.10/site-packages/turtlebot_follower
+copying /home/eth/turtlebot_follow_ws/build/turtlebot_follower/build/lib/turtlebot_follower/aruco_detector.py -> /home/eth/turtlebot_follow_ws/install/turtlebot_follower/lib/python3.10/site-packages/turtlebot_follower
+copying /home/eth/turtlebot_follow_ws/build/turtlebot_follower/build/lib/turtlebot_follower/follower.py -> /home/eth/turtlebot_follow_ws/install/turtlebot_follower/lib/python3.10/site-packages/turtlebot_follower
+copying /home/eth/turtlebot_follow_ws/build/turtlebot_follower/build/lib/turtlebot_follower/__init__.py -> /home/eth/turtlebot_follow_ws/install/turtlebot_follower/lib/python3.10/site-packages/turtlebot_follower
+byte-compiling /home/eth/turtlebot_follow_ws/install/turtlebot_follower/lib/python3.10/site-packages/turtlebot_follower/aruco_detector.py to aruco_detector.cpython-310.pyc
+byte-compiling /home/eth/turtlebot_follow_ws/install/turtlebot_follower/lib/python3.10/site-packages/turtlebot_follower/follower.py to follower.cpython-310.pyc
+byte-compiling /home/eth/turtlebot_follow_ws/install/turtlebot_follower/lib/python3.10/site-packages/turtlebot_follower/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/eth/turtlebot_follow_ws/install/turtlebot_follower/share/ament_index
+creating /home/eth/turtlebot_follow_ws/install/turtlebot_follower/share/ament_index/resource_index
+creating /home/eth/turtlebot_follow_ws/install/turtlebot_follower/share/ament_index/resource_index/packages
+copying resource/turtlebot_follower -> /home/eth/turtlebot_follow_ws/install/turtlebot_follower/share/ament_index/resource_index/packages
+copying package.xml -> /home/eth/turtlebot_follow_ws/install/turtlebot_follower/share/turtlebot_follower
+running install_egg_info
+Copying ../../build/turtlebot_follower/turtlebot_follower.egg-info to /home/eth/turtlebot_follow_ws/install/turtlebot_follower/lib/python3.10/site-packages/turtlebot_follower-0.0.0-py3.10.egg-info
+running install_scripts
+Installing aruco_detector script to /home/eth/turtlebot_follow_ws/install/turtlebot_follower/lib/turtlebot_follower
+Installing follower script to /home/eth/turtlebot_follow_ws/install/turtlebot_follower/lib/turtlebot_follower
+writing list of installed files to '/home/eth/turtlebot_follow_ws/build/turtlebot_follower/install.log'

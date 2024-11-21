@@ -1,0 +1,18 @@
+[0.767s] Invoking command in '/home/eth/turtlebot_follow_ws/build/turtlebot_follower': PYTHONPATH=/home/eth/turtlebot_follow_ws/build/turtlebot_follower/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/eth/turtlebot_follow_ws/install/turtlebot_follower/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/eth/turtlebot_follow_ws/build/turtlebot_follower/build --no-deps symlink_data
+[1.072s] running develop
+[1.303s] running egg_info
+[1.303s] writing turtlebot_follower.egg-info/PKG-INFO
+[1.303s] writing dependency_links to turtlebot_follower.egg-info/dependency_links.txt
+[1.304s] writing entry points to turtlebot_follower.egg-info/entry_points.txt
+[1.304s] writing requirements to turtlebot_follower.egg-info/requires.txt
+[1.304s] writing top-level names to turtlebot_follower.egg-info/top_level.txt
+[1.305s] reading manifest file 'turtlebot_follower.egg-info/SOURCES.txt'
+[1.306s] writing manifest file 'turtlebot_follower.egg-info/SOURCES.txt'
+[1.307s] running build_ext
+[1.308s] Creating /home/eth/turtlebot_follow_ws/install/turtlebot_follower/lib/python3.10/site-packages/turtlebot-follower.egg-link (link to .)
+[1.308s] Installing aruco_detector script to /home/eth/turtlebot_follow_ws/install/turtlebot_follower/lib/turtlebot_follower
+[1.308s] Installing follower script to /home/eth/turtlebot_follow_ws/install/turtlebot_follower/lib/turtlebot_follower
+[1.308s] 
+[1.309s] Installed /home/eth/turtlebot_follow_ws/build/turtlebot_follower
+[1.309s] running symlink_data
+[1.336s] Invoked command in '/home/eth/turtlebot_follow_ws/build/turtlebot_follower' returned '0': PYTHONPATH=/home/eth/turtlebot_follow_ws/build/turtlebot_follower/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/eth/turtlebot_follow_ws/install/turtlebot_follower/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/eth/turtlebot_follow_ws/build/turtlebot_follower/build --no-deps symlink_data

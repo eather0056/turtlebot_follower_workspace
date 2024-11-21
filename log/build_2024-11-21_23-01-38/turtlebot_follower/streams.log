@@ -1,0 +1,41 @@
+[0.742s] Invoking command in '/home/eth/turtlebot_follow_ws/src/turtlebot_follower': PYTHONPATH=/home/eth/turtlebot_follow_ws/build/turtlebot_follower/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/eth/turtlebot_follow_ws/install/turtlebot_follower/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/turtlebot_follower build --build-base /home/eth/turtlebot_follow_ws/build/turtlebot_follower/build install --record /home/eth/turtlebot_follow_ws/build/turtlebot_follower/install.log --single-version-externally-managed install_data
+[1.034s] running egg_info
+[1.034s] creating ../../build/turtlebot_follower/turtlebot_follower.egg-info
+[1.035s] writing ../../build/turtlebot_follower/turtlebot_follower.egg-info/PKG-INFO
+[1.035s] writing dependency_links to ../../build/turtlebot_follower/turtlebot_follower.egg-info/dependency_links.txt
+[1.035s] writing entry points to ../../build/turtlebot_follower/turtlebot_follower.egg-info/entry_points.txt
+[1.035s] writing requirements to ../../build/turtlebot_follower/turtlebot_follower.egg-info/requires.txt
+[1.035s] writing top-level names to ../../build/turtlebot_follower/turtlebot_follower.egg-info/top_level.txt
+[1.035s] writing manifest file '../../build/turtlebot_follower/turtlebot_follower.egg-info/SOURCES.txt'
+[1.037s] reading manifest file '../../build/turtlebot_follower/turtlebot_follower.egg-info/SOURCES.txt'
+[1.038s] writing manifest file '../../build/turtlebot_follower/turtlebot_follower.egg-info/SOURCES.txt'
+[1.038s] running build
+[1.038s] running build_py
+[1.038s] creating /home/eth/turtlebot_follow_ws/build/turtlebot_follower/build
+[1.038s] creating /home/eth/turtlebot_follow_ws/build/turtlebot_follower/build/lib
+[1.038s] creating /home/eth/turtlebot_follow_ws/build/turtlebot_follower/build/lib/turtlebot_follower
+[1.038s] copying turtlebot_follower/aruco_detector.py -> /home/eth/turtlebot_follow_ws/build/turtlebot_follower/build/lib/turtlebot_follower
+[1.038s] copying turtlebot_follower/follower.py -> /home/eth/turtlebot_follow_ws/build/turtlebot_follower/build/lib/turtlebot_follower
+[1.038s] copying turtlebot_follower/__init__.py -> /home/eth/turtlebot_follow_ws/build/turtlebot_follower/build/lib/turtlebot_follower
+[1.039s] running install
+[1.039s] running install_lib
+[1.039s] creating /home/eth/turtlebot_follow_ws/install/turtlebot_follower/lib/python3.10/site-packages/turtlebot_follower
+[1.039s] copying /home/eth/turtlebot_follow_ws/build/turtlebot_follower/build/lib/turtlebot_follower/aruco_detector.py -> /home/eth/turtlebot_follow_ws/install/turtlebot_follower/lib/python3.10/site-packages/turtlebot_follower
+[1.040s] copying /home/eth/turtlebot_follow_ws/build/turtlebot_follower/build/lib/turtlebot_follower/follower.py -> /home/eth/turtlebot_follow_ws/install/turtlebot_follower/lib/python3.10/site-packages/turtlebot_follower
+[1.040s] copying /home/eth/turtlebot_follow_ws/build/turtlebot_follower/build/lib/turtlebot_follower/__init__.py -> /home/eth/turtlebot_follow_ws/install/turtlebot_follower/lib/python3.10/site-packages/turtlebot_follower
+[1.040s] byte-compiling /home/eth/turtlebot_follow_ws/install/turtlebot_follower/lib/python3.10/site-packages/turtlebot_follower/aruco_detector.py to aruco_detector.cpython-310.pyc
+[1.041s] byte-compiling /home/eth/turtlebot_follow_ws/install/turtlebot_follower/lib/python3.10/site-packages/turtlebot_follower/follower.py to follower.cpython-310.pyc
+[1.041s] byte-compiling /home/eth/turtlebot_follow_ws/install/turtlebot_follower/lib/python3.10/site-packages/turtlebot_follower/__init__.py to __init__.cpython-310.pyc
+[1.041s] running install_data
+[1.041s] creating /home/eth/turtlebot_follow_ws/install/turtlebot_follower/share/ament_index
+[1.042s] creating /home/eth/turtlebot_follow_ws/install/turtlebot_follower/share/ament_index/resource_index
+[1.042s] creating /home/eth/turtlebot_follow_ws/install/turtlebot_follower/share/ament_index/resource_index/packages
+[1.042s] copying resource/turtlebot_follower -> /home/eth/turtlebot_follow_ws/install/turtlebot_follower/share/ament_index/resource_index/packages
+[1.042s] copying package.xml -> /home/eth/turtlebot_follow_ws/install/turtlebot_follower/share/turtlebot_follower
+[1.042s] running install_egg_info
+[1.043s] Copying ../../build/turtlebot_follower/turtlebot_follower.egg-info to /home/eth/turtlebot_follow_ws/install/turtlebot_follower/lib/python3.10/site-packages/turtlebot_follower-0.0.0-py3.10.egg-info
+[1.044s] running install_scripts
+[1.063s] Installing aruco_detector script to /home/eth/turtlebot_follow_ws/install/turtlebot_follower/lib/turtlebot_follower
+[1.063s] Installing follower script to /home/eth/turtlebot_follow_ws/install/turtlebot_follower/lib/turtlebot_follower
+[1.063s] writing list of installed files to '/home/eth/turtlebot_follow_ws/build/turtlebot_follower/install.log'
+[1.084s] Invoked command in '/home/eth/turtlebot_follow_ws/src/turtlebot_follower' returned '0': PYTHONPATH=/home/eth/turtlebot_follow_ws/build/turtlebot_follower/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/eth/turtlebot_follow_ws/install/turtlebot_follower/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/turtlebot_follower build --build-base /home/eth/turtlebot_follow_ws/build/turtlebot_follower/build install --record /home/eth/turtlebot_follow_ws/build/turtlebot_follower/install.log --single-version-externally-managed install_data

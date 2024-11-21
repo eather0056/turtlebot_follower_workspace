@@ -1,0 +1,125 @@
+[0.019s] Invoking command in '/home/eth/turtlebot_follow_ws/build/cv_bridge': CMAKE_PREFIX_PATH=/home/eth/turtlebot_follow_ws/install/turtlebot_follower:/opt/ros/humble /usr/bin/cmake /home/eth/turtlebot_follow_ws/src/vision_opencv/cv_bridge -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/eth/turtlebot_follow_ws/install/cv_bridge
+[0.073s] -- The C compiler identification is GNU 11.4.0
+[0.131s] -- The CXX compiler identification is GNU 11.4.0
+[0.143s] -- Detecting C compiler ABI info
+[0.208s] -- Detecting C compiler ABI info - done
+[0.225s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.226s] -- Detecting C compile features
+[0.227s] -- Detecting C compile features - done
+[0.233s] -- Detecting CXX compiler ABI info
+[0.314s] -- Detecting CXX compiler ABI info - done
+[0.333s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.333s] -- Detecting CXX compile features
+[0.334s] -- Detecting CXX compile features - done
+[0.338s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.514s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.588s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.186s] -- Found Python3: /usr/include/python3.10 (found version "3.10.12") found components: Development NumPy Interpreter Development.Module Development.Embed 
+[1.216s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: python310 
+[1.222s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[1.280s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.286s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.296s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.311s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.333s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.397s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.401s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.496s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.529s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.573s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.585s] -- Looking for pthread.h
+[1.656s] -- Looking for pthread.h - found
+[1.657s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.737s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.738s] -- Found Threads: TRUE  
+[1.829s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[2.083s] -- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY
+[2.293s] -- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY - Success
+[2.301s] -- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY
+[2.512s] -- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY - Success
+[2.515s] -- Performing Test COMPILER_HAS_DEPRECATED_ATTR
+[2.711s] -- Performing Test COMPILER_HAS_DEPRECATED_ATTR - Success
+[2.729s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.923s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[4.513s] -- Configuring done
+[4.546s] -- Generating done
+[4.549s] -- Build files have been written to: /home/eth/turtlebot_follow_ws/build/cv_bridge
+[4.562s] Invoked command in '/home/eth/turtlebot_follow_ws/build/cv_bridge' returned '0': CMAKE_PREFIX_PATH=/home/eth/turtlebot_follow_ws/install/turtlebot_follower:/opt/ros/humble /usr/bin/cmake /home/eth/turtlebot_follow_ws/src/vision_opencv/cv_bridge -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/eth/turtlebot_follow_ws/install/cv_bridge
+[4.564s] Invoking command in '/home/eth/turtlebot_follow_ws/build/cv_bridge': CMAKE_PREFIX_PATH=/home/eth/turtlebot_follow_ws/install/turtlebot_follower:/opt/ros/humble /usr/bin/cmake --build /home/eth/turtlebot_follow_ws/build/cv_bridge -- -j8 -l8
+[4.619s] [ 11%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[4.619s] [ 11%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[4.623s] [ 22%] [32mBuilding CXX object src/CMakeFiles/cv_bridge.dir/rgb_colors.cpp.o[0m
+[4.623s] [ 22%] [32mBuilding CXX object src/CMakeFiles/cv_bridge.dir/cv_bridge.cpp.o[0m
+[4.624s] [ 27%] [32mBuilding CXX object src/CMakeFiles/cv_bridge.dir/cv_mat_sensor_msgs_image_type_adapter.cpp.o[0m
+[4.637s] [ 27%] Built target ament_cmake_python_symlink_cv_bridge
+[5.325s] running egg_info
+[5.326s] creating cv_bridge.egg-info
+[5.327s] writing cv_bridge.egg-info/PKG-INFO
+[5.327s] writing dependency_links to cv_bridge.egg-info/dependency_links.txt
+[5.328s] writing top-level names to cv_bridge.egg-info/top_level.txt
+[5.328s] writing manifest file 'cv_bridge.egg-info/SOURCES.txt'
+[5.332s] reading manifest file 'cv_bridge.egg-info/SOURCES.txt'
+[5.334s] writing manifest file 'cv_bridge.egg-info/SOURCES.txt'
+[5.383s] [ 27%] Built target ament_cmake_python_build_cv_bridge_egg
+[6.550s] [ 33%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[6.590s] [ 33%] Built target gtest_main
+[9.553s] [ 38%] [32m[1mLinking CXX static library libgtest.a[0m
+[9.618s] [ 38%] Built target gtest
+[10.327s] [ 44%] [32m[1mLinking CXX shared library libcv_bridge.so[0m
+[10.510s] [ 44%] Built target cv_bridge
+[10.530s] [ 50%] [32mBuilding CXX object test/CMakeFiles/cv_bridge-utest.dir/utest.cpp.o[0m
+[10.530s] [ 66%] [32mBuilding CXX object test/CMakeFiles/cv_bridge-utest.dir/test_endian.cpp.o[0m
+[10.530s] [ 66%] [32mBuilding CXX object test/CMakeFiles/cv_bridge-utest.dir/test_compression.cpp.o[0m
+[10.531s] [ 66%] [32mBuilding CXX object src/CMakeFiles/cv_bridge_boost.dir/module_opencv4.cpp.o[0m
+[10.532s] [ 72%] [32mBuilding CXX object test/CMakeFiles/cv_bridge-utest.dir/test_rgb_colors.cpp.o[0m
+[10.532s] [ 77%] [32mBuilding CXX object test/CMakeFiles/cv_bridge-utest.dir/test_dynamic_scaling.cpp.o[0m
+[10.534s] [ 83%] [32mBuilding CXX object src/CMakeFiles/cv_bridge_boost.dir/module.cpp.o[0m
+[10.535s] [ 88%] [32mBuilding CXX object test/CMakeFiles/cv_bridge-utest.dir/utest2.cpp.o[0m
+[15.259s] [ 94%] [32m[1mLinking CXX executable cv_bridge-utest[0m
+[15.737s] [ 94%] Built target cv_bridge-utest
+[16.535s] [100%] [32m[1mLinking CXX shared module boost/cv_bridge_boost.so[0m
+[16.695s] [100%] Built target cv_bridge_boost
+[16.704s] Invoked command in '/home/eth/turtlebot_follow_ws/build/cv_bridge' returned '0': CMAKE_PREFIX_PATH=/home/eth/turtlebot_follow_ws/install/turtlebot_follower:/opt/ros/humble /usr/bin/cmake --build /home/eth/turtlebot_follow_ws/build/cv_bridge -- -j8 -l8
+[16.726s] Invoking command in '/home/eth/turtlebot_follow_ws/build/cv_bridge': CMAKE_PREFIX_PATH=/home/eth/turtlebot_follow_ws/install/turtlebot_follower:/opt/ros/humble /usr/bin/cmake --install /home/eth/turtlebot_follow_ws/build/cv_bridge
+[16.732s] -- Install configuration: ""
+[16.732s] -- Execute custom install script
+[16.732s] -- Symlinking: /home/eth/turtlebot_follow_ws/install/cv_bridge/share/cv_bridge/environment/pythonpath.sh
+[16.739s] -- Symlinking: /home/eth/turtlebot_follow_ws/install/cv_bridge/share/cv_bridge/environment/pythonpath.dsv
+[16.746s] -- Symlinking: /home/eth/turtlebot_follow_ws/install/cv_bridge/local/lib/python3.10/dist-packages/cv_bridge-4.1.0-py3.10.egg-info/PKG-INFO
+[16.753s] -- Symlinking: /home/eth/turtlebot_follow_ws/install/cv_bridge/local/lib/python3.10/dist-packages/cv_bridge-4.1.0-py3.10.egg-info/SOURCES.txt
+[16.759s] -- Symlinking: /home/eth/turtlebot_follow_ws/install/cv_bridge/local/lib/python3.10/dist-packages/cv_bridge-4.1.0-py3.10.egg-info/dependency_links.txt
+[16.766s] -- Symlinking: /home/eth/turtlebot_follow_ws/install/cv_bridge/local/lib/python3.10/dist-packages/cv_bridge-4.1.0-py3.10.egg-info/top_level.txt
+[16.773s] -- Symlinking: /home/eth/turtlebot_follow_ws/install/cv_bridge/local/lib/python3.10/dist-packages/cv_bridge/__init__.py
+[16.781s] -- Symlinking: /home/eth/turtlebot_follow_ws/install/cv_bridge/local/lib/python3.10/dist-packages/cv_bridge/core.py
+[16.788s] -- Symlinking: /home/eth/turtlebot_follow_ws/install/cv_bridge/include/cv_bridge/cv_bridge/cv_bridge_export.h
+[16.796s] -- Symlinking: /home/eth/turtlebot_follow_ws/install/cv_bridge/local/lib/python3.10/dist-packages/cv_bridge/boost//cv_bridge_boost.so
+[16.804s] -- Symlinking: /home/eth/turtlebot_follow_ws/install/cv_bridge/include/cv_bridge/cv_bridge/cv_bridge.hpp
+[16.811s] -- Symlinking: /home/eth/turtlebot_follow_ws/install/cv_bridge/include/cv_bridge/cv_bridge/cv_mat_sensor_msgs_image_type_adapter.hpp
+[16.818s] -- Symlinking: /home/eth/turtlebot_follow_ws/install/cv_bridge/include/cv_bridge/cv_bridge/rgb_colors.hpp
+[16.825s] -- Symlinking: /home/eth/turtlebot_follow_ws/install/cv_bridge/include/cv_bridge/cv_bridge/visibility_control.h
+[16.832s] -- Symlinking: /home/eth/turtlebot_follow_ws/install/cv_bridge/lib/libcv_bridge.so
+[16.839s] -- Symlinking: /home/eth/turtlebot_follow_ws/install/cv_bridge/share/ament_index/resource_index/package_run_dependencies/cv_bridge
+[16.846s] -- Symlinking: /home/eth/turtlebot_follow_ws/install/cv_bridge/share/ament_index/resource_index/parent_prefix_path/cv_bridge
+[16.854s] -- Symlinking: /home/eth/turtlebot_follow_ws/install/cv_bridge/share/cv_bridge/environment/ament_prefix_path.sh
+[16.862s] -- Symlinking: /home/eth/turtlebot_follow_ws/install/cv_bridge/share/cv_bridge/environment/ament_prefix_path.dsv
+[16.869s] -- Symlinking: /home/eth/turtlebot_follow_ws/install/cv_bridge/share/cv_bridge/environment/path.sh
+[16.877s] -- Symlinking: /home/eth/turtlebot_follow_ws/install/cv_bridge/share/cv_bridge/environment/path.dsv
+[16.885s] -- Symlinking: /home/eth/turtlebot_follow_ws/install/cv_bridge/share/cv_bridge/local_setup.bash
+[16.893s] -- Symlinking: /home/eth/turtlebot_follow_ws/install/cv_bridge/share/cv_bridge/local_setup.sh
+[16.901s] -- Symlinking: /home/eth/turtlebot_follow_ws/install/cv_bridge/share/cv_bridge/local_setup.zsh
+[16.910s] -- Symlinking: /home/eth/turtlebot_follow_ws/install/cv_bridge/share/cv_bridge/local_setup.dsv
+[16.917s] -- Symlinking: /home/eth/turtlebot_follow_ws/install/cv_bridge/share/cv_bridge/package.dsv
+[16.924s] -- Symlinking: /home/eth/turtlebot_follow_ws/install/cv_bridge/share/ament_index/resource_index/packages/cv_bridge
+[16.930s] -- Symlinking: /home/eth/turtlebot_follow_ws/install/cv_bridge/share/cv_bridge/cmake/cv_bridge-extras.cmake
+[16.937s] -- Symlinking: /home/eth/turtlebot_follow_ws/install/cv_bridge/share/cv_bridge/cmake/ament_cmake_export_dependencies-extras.cmake
+[16.944s] -- Symlinking: /home/eth/turtlebot_follow_ws/install/cv_bridge/share/cv_bridge/cmake/ament_cmake_export_targets-extras.cmake
+[16.950s] -- Symlinking: /home/eth/turtlebot_follow_ws/install/cv_bridge/share/cv_bridge/cmake/cv_bridgeConfig.cmake
+[16.957s] -- Symlinking: /home/eth/turtlebot_follow_ws/install/cv_bridge/share/cv_bridge/cmake/cv_bridgeConfig-version.cmake
+[16.964s] -- Symlinking: /home/eth/turtlebot_follow_ws/install/cv_bridge/share/cv_bridge/package.xml
+[17.005s] Listing '/home/eth/turtlebot_follow_ws/install/cv_bridge/local/lib/python3.10/dist-packages/cv_bridge'...
+[17.005s] Compiling '/home/eth/turtlebot_follow_ws/install/cv_bridge/local/lib/python3.10/dist-packages/cv_bridge/__init__.py'...
+[17.005s] Listing '/home/eth/turtlebot_follow_ws/install/cv_bridge/local/lib/python3.10/dist-packages/cv_bridge/boost'...
+[17.005s] Compiling '/home/eth/turtlebot_follow_ws/install/cv_bridge/local/lib/python3.10/dist-packages/cv_bridge/core.py'...
+[17.010s] -- Installing: /home/eth/turtlebot_follow_ws/install/cv_bridge/share/cv_bridge/cmake/export_cv_bridgeExport.cmake
+[17.011s] -- Installing: /home/eth/turtlebot_follow_ws/install/cv_bridge/share/cv_bridge/cmake/export_cv_bridgeExport-noconfig.cmake
+[17.013s] Invoked command in '/home/eth/turtlebot_follow_ws/build/cv_bridge' returned '0': CMAKE_PREFIX_PATH=/home/eth/turtlebot_follow_ws/install/turtlebot_follower:/opt/ros/humble /usr/bin/cmake --install /home/eth/turtlebot_follow_ws/build/cv_bridge
